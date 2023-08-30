@@ -1,0 +1,110 @@
+body{
+    width: 500px;
+    margin: 1% auto;
+    font-family: "Sofia", sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8 rem;
+    background-color: beige;
+}
+.calculator {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+  }
+  .input{
+    border: 1px solid rgb(240, 158, 16);
+    background-color:whitesmoke;
+    border-radius: 30px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+  }
+  .input:hover{
+    border: 1px solid rebeccapurple;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  .buttons{}
+  .operators{}
+  .operators div{
+    display: inline-block;
+    border: 1px solid #bbb;
+    font-size: 23px;
+    border-radius:  30px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  .operators div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  .operators div:active {
+    font-weight: bold;
+  }
+  .leftPanel{
+    display: inline-block;
+  }
+  .numbers div{
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius:  30px;
+    font-size: 23px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 22px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  .numbers div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  .numbers div:active {
+    font-weight: bold;
+  }
+  div.equal{
+    display: inline-block;
+    border: 1px solid #bbb;
+    font-size: 37px;
+    border-radius:50px;
+    width: 17%;
+    text-align: center;
+    padding: 112px 10px;
+    margin: 50px 6px 10px 0;
+    cursor: pointer;
+    vertical-align: top;
+    background-color: rgb(240, 158, 16);
+    color: #1a1919;
+    transition: all .2s ease-in-out;
+  }
+  div.equal:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  div.equal:active {
+    font-weight: bold;
+  }
+  .nam{
+    text-align:start;
+    
+  }
+  
